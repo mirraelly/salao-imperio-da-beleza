@@ -7,5 +7,6 @@
 </template>
 
 <script setup> 
-import Index from '@/pages/index.vue'
+  import Index from '@/pages/index.vue'
+  import 'primeicons/primeicons.css'
 </script>

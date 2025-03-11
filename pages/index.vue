@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cabecalho />
         <Hero />
         <Sobre />
         <Servicos />
@@ -13,6 +14,7 @@
 </template>
 
 <script setup>
+import Cabecalho from '@/components/sections/Cabecalho.vue'
 import Hero from '@/components/sections/Hero.vue'
 import Sobre from '@/components/sections/Sobre.vue'
 import Servicos from '@/components/sections/Servicos.vue'
