@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1000",
+      "code": "f230fh0g3",
+      "name": "Bamboo Watch",
+      "description": "Elegant and eco-friendly watch made of bamboo.",
+      "image": "bamboo-watch.jpg",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 24,
+      "inventoryStatus": "INSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "1001",
+      "code": "nvklal433",
+      "name": "Black Sunglasses",
+      "description": "Stylish black sunglasses with UV protection.",
+      "image": "black-sunglasses.jpg",
+      "price": 35,
+      "category": "Accessories",
+      "quantity": 15,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "1002",
+      "code": "zz21cz3c1",
+      "name": "Blue T-Shirt",
+      "description": "Comfortable cotton t-shirt in blue color.",
+      "image": "blue-t-shirt.jpg",
+      "price": 25,
+      "category": "Clothing",
+      "quantity": 0,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 3
+    }
+  ]
+  
