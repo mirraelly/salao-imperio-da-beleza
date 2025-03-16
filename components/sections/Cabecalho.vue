@@ -7,7 +7,7 @@
                     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-0.5 sm:gap-4">
                         <div class="flex items-center gap-1.5">
                             <i class="pi pi-clock text-white"></i>
-                            <span class="text-[14px] text-white">Ter a sáb: das 9:00 às 18:00</span>
+                            <span class="text-[14px] text-white">Ter a sáb: das 09:00 às 18:00</span>
                         </div>
                         <div class="flex items-start sm:items-center gap-1.5">
                             <i class="pi pi-home text-white"></i>
