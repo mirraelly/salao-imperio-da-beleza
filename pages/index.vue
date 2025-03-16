@@ -29,6 +29,9 @@ import Rodape from '@/components/sections/Rodape.vue'
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,500;1,500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Monsieur+La+Doulaise&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
 :root {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", 
                  "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
