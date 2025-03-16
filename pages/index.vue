@@ -7,8 +7,8 @@
         <Depoimentos />
         <Galeria />
         <Equipe />
+        <Contato /> 
         <Localizacao />
-        <Contato />
         <Rodape />
     </div>
 </template>

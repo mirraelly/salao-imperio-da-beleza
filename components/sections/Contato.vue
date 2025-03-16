@@ -16,7 +16,7 @@
           <i class="pi pi-home text-white"> </i>
           <span class="text-white">
             <p>2ª Travessa Dr. Pedro Lopes, Cardoso.</p>
-            <p>Pajuçara, Natal - RN</p>
+            <p>Pajuçara, Natal - RN. Brasil</p>
           </span>
         </div>
 
