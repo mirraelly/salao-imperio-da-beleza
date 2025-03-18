@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Usuário A",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices.."
+    },
+    {
+      "id": 2,
+      "name": "Usuário B",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+    },
+    {
+      "id": 3,
+      "name": "Usuário C",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+    },
+    {
+      "id": 4,
+      "name": "Usuário D",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+    },
+    {
+      "id": 5,
+      "name": "Usuário E",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Adicionando um comentário interessante."
+    },
+    {
+      "id": 6,
+      "name": "Usuário F",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Aproveitando o final da tarde."
+    },
+    {
+      "id": 7,
+      "name": "Usuário G",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Compartilhando uma experiência."
+    },
+    {
+      "id": 8,
+      "name": "Usuário H",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Uma pequena atualização."
+    },
+    {
+      "id": 9,
+      "name": "Usuário I",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Pensamentos aleatórios."
+    },
+    {
+      "id": 10,
+      "name": "Usuário J",
+      "time": "Cliente a 4 anos",
+      "photo": "/assets/images/testemonialsImages/teste-image-woman.jpg",
+      "text": "Última postagem do dia."
+    }
+  ]
