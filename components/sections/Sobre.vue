@@ -1,11 +1,11 @@
 <template>
   <div class="py-8 px-16 bg-black">
-    <h1 class="text-[2rem] text-center">Quem Somos</h1>
+    <h1 class="text-[2rem] text-center text-[#ffd700]">Quem Somos</h1>
     <div
       class="flex flex-col sm:flex-row w-full items-center justify-between gap-16"
     >
       <div class="w-2/3">
-        <span class="w-1/2 text-start">
+        <span class="w-1/2 text-start text-white">
           Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus
           quis, vehicula ac nisi. Nulla id gravida magna, ut semper sapien.
           Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean
