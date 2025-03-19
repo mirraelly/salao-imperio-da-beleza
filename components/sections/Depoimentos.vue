@@ -1,17 +1,12 @@
 <script setup>
-import { ref, onMounted, computed } from "vue";
+import { ref, computed } from "vue";
 import testemonialsData from "@/assets/db/testemonials.json";
 
 const testemonials = ref(testemonialsData.testemonials);
 const currentIndex = ref(0);
 const currentDepoimento = computed(
   () => testemonials.value[currentIndex.value]
-); //depoimento atual
-
-// Função para obter o URL da imagem (assume que as imagens estão na pasta public)
-const getImageUrl = (path) => {
-  return new URL(path, import.meta.url).href;
-};
+);
 </script>
 
 <template>
