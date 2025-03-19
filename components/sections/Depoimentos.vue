@@ -15,52 +15,52 @@ const getImageUrl = (path) => {
 </script>
 
 <template>
-  <h1 class="text-[2rem] text-center">Depoimentos</h1>
-  <div>
-    <div class="flex items-start gap-2 py-10 px-auto">
-      <div class="card w-full">
-        <Carousel
-          :value="testemonials"
-          :numVisible="1"
-          :numScroll="1"
-          @update:page="currentIndex = $event"
-          circular
-          :autoplayInterval="3000"
-          :showNavigators="false"
-          :showIndicators="false"
-          orientation="vertical"
-          containerClass="flex items-end"
-        >
-          <template #item="slotProps">
-            <div
-              class="border border-surface-200 dark:border-surface-700 rounded m-2 p-4"
-            >
-              <div class="mb-4">
-                <div class="relative mx-auto w-[300px] h-[150px]">
-                  <img
-                    :src="slotProps.data.photo"
-                    :alt="slotProps.data.name"
-                    class="w-full rounded"
-                  />
+  <div class="bg-black pt-6">
+    <h1 class="text-[2rem] text-center text-white">Depoimentos</h1>
+    <div>
+      <div class="flex items-start gap-2 py-10 px-auto">
+        <div class="card w-full">
+          <Carousel
+            :value="testemonials"
+            :numVisible="1"
+            :numScroll="1"
+            @update:page="currentIndex = $event"
+            circular
+            :autoplayInterval="3000"
+            :showNavigators="false"
+            :showIndicators="false"
+            orientation="vertical"
+            containerClass="flex items-end"
+          >
+            <template #item="slotProps">
+              <div
+                class="border border-surface-200 dark:border-surface-700 rounded m-2 p-4"
+              >
+                <div class="mb-4">
+                  <div class="relative mx-auto w-[300px] h-[150px]">
+                    <img
+                      :src="slotProps.data.photo"
+                      :alt="slotProps.data.name"
+                      class="w-full rounded"
+                    />
+                  </div>
                 </div>
+                <div class="mb-4 font-medium">{{ slotProps.data.name }}</div>
               </div>
-              <div class="mb-4 font-medium">{{ slotProps.data.name }}</div>
-            </div>
-          </template>
-        </Carousel>
-      </div>
-      <div class="ml-8 w-full">
-        <div class="relative bg-white rounded-lg shadow-md p-4 w-120">
-          <div class="absolute -left-4 top-1/2 transform -translate-y-1/2">
+            </template>
+          </Carousel>
+        </div>
+        <div class="ml-8 w-full">
+          <div class="relative bg-white rounded-lg shadow-md p-4 w-120">
             <div
-              class="w-0 h-0 border-t-8 border-r-8 border-b-8 border-l-0 border-white"
+              class="absolute -left-4 top-1/2 transform -translate-y-1/2"
             ></div>
-          </div>
-          <!-- Triângulo -->
-          <div class="triangle"></div>
+            <!-- Triângulo -->
+            <div class="triangle"></div>
 
-          <h3 class="font-semibold text-lg">{{ currentDepoimento.name }}</h3>
-          <p class="text-gray-600">{{ currentDepoimento.text }}</p>
+            <h3 class="font-semibold text-lg">{{ currentDepoimento.name }}</h3>
+            <p class="text-gray-600">{{ currentDepoimento.text }}</p>
+          </div>
         </div>
       </div>
     </div>
