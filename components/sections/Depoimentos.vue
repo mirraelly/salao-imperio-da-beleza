@@ -10,7 +10,7 @@ const currentDepoimento = computed(
 </script>
 
 <template>
-  <div class="bg-black pt-6">
+  <div class="bg-black pt-6" id="depoimentos">
     <h1 class="text-[2rem] text-center text-[#ffd700]">Depoimentos</h1>
     <div>
       <div class="flex items-start gap-2 py-10 px-auto">

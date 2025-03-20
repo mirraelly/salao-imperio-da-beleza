@@ -74,6 +74,7 @@
           <a
             v-if="item.root"
             class="flex items-center cursor-pointer px-4 py-2 overflow-hidden relative text-base"
+            :href="item.url"
             style="border-radius: 2rem"
           >
             <span class="menu-options">{{ item.label }}</span>
@@ -110,30 +111,37 @@ const items = ref([
   {
     label: "Início",
     root: true,
+    url: "#heroCarousel",
   },
   {
     label: "Sobre",
     root: true,
+    url: "#sobre",
   },
   {
     label: "Depoimentos",
     root: true,
+    url: "#depoimentos",
   },
   {
     label: "A equipe",
     root: true,
+    url: "#equipe",
+  },
+  {
+    label: "Serviços",
+    root: true,
+    url: "#servicos",
   },
   {
     label: "Galeria",
     root: true,
+    url: "#galeria",
   },
   {
     label: "Contato",
     root: true,
-  },
-  {
-    label: "Localização",
-    root: true,
+    url: "#contato",
   },
 ]);
 
