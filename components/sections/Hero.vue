@@ -1,5 +1,8 @@
 <template>
-  <div class="card m-auto w-full md:min-h-[500px] flex items-center">
+  <div
+    class="card m-auto w-full md:min-h-[500px] flex items-center"
+    id="heroCarousel"
+  >
     <Carousel
       :value="slides"
       :numVisible="1"
