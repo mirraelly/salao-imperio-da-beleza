@@ -84,9 +84,29 @@ onMounted(() => {
   color: #ffffff;
 }
 
+.p-carousel[data-v-031d8a61] {
+  padding-top: 4rem;
+}
+
 @media (max-width: 768px) {
   .slide {
     padding: 20px;
+  }
+
+  .p-carousel[data-v-031d8a61][data-v-031d8a61] {
+    padding-top: 8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .p-carousel[data-v-031d8a61][data-v-031d8a61][data-v-031d8a61] {
+    padding-top: 9rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .p-carousel[data-v-031d8a61][data-v-031d8a61][data-v-031d8a61] {
+    padding-top: 10rem;
   }
 }
 </style>

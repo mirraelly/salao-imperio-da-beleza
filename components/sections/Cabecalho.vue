@@ -1,8 +1,10 @@
 <template>
   <div class="card fixed top-0 left-0 w-full z-50">
-    <div class="py-1 px-6 bg-[#000000a1] topo">
+    <div class="py-1 px-6 bg-[#000000a1] topo" v-show="mostrarTopo">
       <div>
-        <div class="flex justify-between items-center gap-0.5">
+        <div
+          class="flex justify-between items-center flex-col md:flex-row gap-0.5"
+        >
           <div
             class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-0.5 sm:gap-4"
           >
@@ -20,9 +22,7 @@
               >
             </div>
           </div>
-          <div
-            class="flex flex-col sm:flex-row justify-between items-center gap-0.5 sm:gap-4"
-          >
+          <div class="flex sm:flex-row justify-between items-center gap-4">
             <div>
               <a href="https://wa.me/5584988675840" target="_blank">
                 <i class="pi pi-whatsapp text-white hover:text-[#19ff00]"></i>
@@ -136,6 +136,23 @@ const items = ref([
     root: true,
   },
 ]);
+
+const mostrarTopo = ref(true);
+
+onMounted(() => {
+  const heroSection = document.querySelector("#heroCarousel");
+
+  if (heroSection) {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        mostrarTopo.value = entry.isIntersecting;
+      },
+      { threshold: 0.2 }
+    );
+
+    observer.observe(heroSection);
+  }
+});
 </script>
 
 <style>
@@ -155,5 +172,13 @@ const items = ref([
 
 .menu-options {
   color: #ffd700;
+}
+
+.p-megamenu-button {
+  color: #ffffff;
+}
+
+.topo {
+  transition: opacity 0.5s ease-in-out;
 }
 </style>
