@@ -2,59 +2,59 @@
   "testemonials": [
     {
       "id": 1,
-      "name": "Usuário A",
-      "time": "Cliente a 4 anos",
+      "name": "Raquel Almeida",
+      "time": "Cliente a x anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices.."
+      "text": "A RK Império da Beleza é mais que um salão. Das conversas e brincadeiras até o momento de oração e ajuda! Fui atendida com muito carinho e atenção, e a qualidade do serviço supera sempre as  expectativas. O ambiente é acolhedor, limpo e moderno, e a equipe é super profissional. Não tenho palavras para agradecer por todo cuidado de toda a equipe que além de maravilhosas profissionais são pessoas incríveis que admiro muito!"
     },
     {
       "id": 2,
       "name": "Usuário B",
-      "time": "Cliente a 4 anos",
+      "time": "Cliente a y anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+      "text": "Ritinha e toda sua equipe sempre entregando um resultado de excelência nos detalhes! Super indico vocês!"
     },
     {
       "id": 3,
       "name": "Usuário C",
-      "time": "Cliente a 4 anos",
+      "time": "Cliente a x anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+      "text": "Rita e toda sua equipe estão de parabéns! Atendimento pontual, produtos de alta qualidade e profissionais altamente especializadas!"
     },
     {
       "id": 4,
-      "name": "Usuário D",
-      "time": "Cliente a 4 anos",
+      "name": "Herika Reziane",
+      "time": "Cliente a x anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Nulla facilisi. Proin non justo vel sem commodo facilisis. Curabitur id nulla nec ligula pretium tincidunt vel in erat. Proin pellentesque interdum sapien nec venenatis. Suspendisse ullamcorper et velit eu suscipit. Quisque et aliquam dolor, sed faucibus est. Ut semper faucibus ultrices."
+      "text": "O melhor salão da ZN, ambiente lindo e aconchegante! Rita e sua equipe arrasam demais!"
     },
     {
       "id": 5,
-      "name": "Usuário E",
-      "time": "Cliente a 4 anos",
+      "name": "Fernanda monte",
+      "time": "Cliente a x anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Adicionando um comentário interessante."
+      "text": "Primeiramente obrigada por cuidar d mim e da minha autoestima, e quero dizer que acredito em seu trabalho desde do primeiro dia que conheci vc eu senti confiança que iria me ajudar na minha pior fase como vc conheceu , e hoje estou aqui plena e linda por conta do seu trabalho, Obrigada ☺️ Porque : O cabeleireiro é um artista que trabalha com o cabelo como uma tela em branco para criar verdadeiras obras de arte.❤️"
     },
     {
       "id": 6,
-      "name": "Usuário F",
+      "name": "Cliente da Espanha",
       "time": "Cliente a 4 anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Aproveitando o final da tarde."
+      "text": "Contando os dias pra chegar no meu Brasil 🇧🇷 e fazer meu cabelo pelas mãos da minha cabeleireira e amiga Kassia só ela com as mãos dela de fada 🧚‍♀️ pra me deixar como India do jeito que eu gosto, 😁 7 anos ja que entreguei meu cabelo pra ela pela primeira vez e só vou no Brasil 🇧🇷 fazer meu cabelo com ela. 🥰"
     },
     {
       "id": 7,
-      "name": "Usuário G",
+      "name": "Ruth Gabriely",
       "time": "Cliente a 4 anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Compartilhando uma experiência."
+      "text": "O salão de Rita de Kácia (Império da Beleza) é um lugar aconchegante, harmonioso, respectivo, um lugar que a pessoa chega e dá vontade de não ir embora. As funcionárias são excelentes, têm um ótimo atendimento e são educadas. Amo estar nesse ambiente, pois além de transmitir paz levanta a minha autoestima"
     },
     {
       "id": 8,
       "name": "Usuário H",
       "time": "Cliente a 4 anos",
       "photo": "/testemonialsImages/teste-image-woman.jpg",
-      "text": "Uma pequena atualização."
+      "text": "Pensamentos aleatórios."
     },
     {
       "id": 9,

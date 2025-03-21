@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "categoria": "Cabelo",
+    "serviço": "Hidratação",
+    "descrição": "Cabelos ressecados? Devolva o brilho e a maciez com nossa hidratação profunda! Seus fios vão amar!",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Cabelo",
+    "serviço": "Nutrição",
+    "descrição": "Fortaleça seus cabelos e diga adeus ao frizz! Nutrição intensa para fios saudáveis e radiantes.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Cabelo",
+    "serviço": "Reconstrução",
+    "descrição": "Cabelos danificados? Recupere a força e a vitalidade com nossa reconstrução poderosa!",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "Cabelo",
+    "serviço": "Cauterização",
+    "descrição": "Selagem perfeita para cabelos macios, brilhantes e sem frizz. O tratamento que seus fios merecem!",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 5,
+    "categoria": "Cabelo",
+    "serviço": "Corte feminino",
+    "descrição": "Renove seu visual com um corte moderno e personalizado! Realce sua beleza e estilo.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 6,
+    "categoria": "Cabelo",
+    "serviço": "Ozonioterapia",
+    "descrição": "Tratamento inovador para um couro cabeludo saudável e fios fortes! Experimente a diferença.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 7,
+    "categoria": "Cabelo",
+    "serviço": "Escova",
+    "descrição": "Cabelos lisos e impecáveis por mais tempo! Escova perfeita para todas as ocasiões.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "Cabelo",
+    "serviço": "Mechas",
+    "descrição": "Ilumine seu rosto e adicione dimensão aos seus cabelos com mechas incríveis!",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "Cabelo",
+    "serviço": "Morena iluminada",
+    "descrição": "Realce sua beleza natural com um toque de luz! Morena iluminada para um visual radiante.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "Cabelo",
+    "serviço": "Progressiva",
+    "descrição": "Cabelos lisos e disciplinados por mais tempo! Diga adeus ao frizz e facilite sua rotina.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 11,
+    "categoria": "Cabelo",
+    "serviço": "Botox",
+    "descrição": "Reduza o volume e o frizz, e conquiste cabelos mais jovens e saudáveis! Resultado incrível.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 12,
+    "categoria": "Cabelo",
+    "serviço": "Selagem",
+    "descrição": "Cabelos alinhados e sem frizz por mais tempo! Selagem para um efeito liso natural e duradouro.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 13,
+    "categoria": "Cabelo",
+    "serviço": "Penteados",
+    "descrição": "Penteados incríveis para todas as ocasiões! Realce sua beleza e arrase em qualquer evento.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 14,
+    "categoria": "Maquiagem",
+    "serviço": "Design de sobrancelhas",
+    "descrição": "Sobrancelhas perfeitas para um olhar marcante! Realce sua beleza natural com nosso design exclusivo.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 15,
+    "categoria": "Manicure",
+    "serviço": "Manicure",
+    "descrição": "Unhas impecáveis e mãos macias! Manicure completa com as últimas tendências em esmaltes.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 16,
+    "categoria": "Unhas",
+    "serviço": "Bronzeamento",
+    "descrição": "Conquiste um bronzeado perfeito e natural! Sinta-se linda e radiante o ano todo.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 17,
+    "categoria": "Unhas",
+    "serviço": "Pedicure",
+    "descrição": "Pés macios e unhas impecáveis! Pedicure completa para relaxar e cuidar de você.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 18,
+    "categoria": "Unhas",
+    "serviço": "Pé e mão",
+    "descrição": "Mãos e pés perfeitos em um só lugar! Combo completo para um cuidado especial.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  },
+  {
+    "id": 19,
+    "categoria": "Estética",
+    "serviço": "Limpeza de pele",
+    "descrição": "Pele radiante e livre de impurezas! Limpeza de pele profunda para um rosto renovado.",
+    "photo": "/testemonialsImages/teste-image-woman.jpg"
+  }
+]
