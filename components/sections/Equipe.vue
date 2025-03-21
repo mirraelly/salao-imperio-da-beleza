@@ -1,6 +1,6 @@
 <template>
   <div class="pt-8 pb-18 px-16 bg-black" id="equipe">
-    <h1 class="text-[2rem] text-center text-[#ffd700] pt-6 pb-12">
+    <h1 class="text-[2rem] text-center text-[#ffd700] title-hero pt-6 pb-12">
       Conheça nosso time
     </h1>
     <div class="text-start text-white flex flex-col gap-10">
