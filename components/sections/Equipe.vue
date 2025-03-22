@@ -1,19 +1,28 @@
 <template>
-  <div class="pt-8 pb-18 px-16 bg-black" id="equipe">
-    <h1 class="text-[2rem] text-center text-[#ffd700] title-hero pt-6 pb-12">
+  <div
+    class="pt-8 pb-18 px-16 md:px-24 bg-black flex items-center flex-col justify-center"
+    id="equipe"
+  >
+    <h1 class="text-[2rem] text-center text-[#ffd700] title-hero pt-6 pb-6">
       Conheça nosso time
     </h1>
     <div class="text-start text-white flex flex-col gap-10">
-      <span>
-        Sed eget iaculis quam. Nullam vestibulum vulputate diam in interdum.
-        Aliquam eget augue semper, molestie nulla quis, hendrerit massa. Morbi
-        nunc odio, feugiat sed tellus ac, sollicitudin ultrices nisl. Sed leo
-        metus, ultricies nec vulputate at, ornare ac massa. Maecenas a erat a
-        diam elementum euismod interdum eget ligula. Donec viverra placerat
-        purus id molestie. Ut fringilla, tellus eget bibendum auctor, justo
-        ipsum mattis magna, eleifend tristique orci urna vel nunc. Integer
-        faucibus, libero eu eleifend tempus, quam nisi maximus nibh, sit amet
-        iaculis turpis dui a est.
+      <span
+        ><p class="indent-[40px] text-justify mb-2.5">
+          No coração do nosso salão, pulsa uma equipe de artistas da beleza,
+          apaixonados por realçar o que há de mais belo em você. Somos um time
+          de profissionais experientes, antenados nas últimas tendências e
+          técnicas, prontos para te guiar em uma jornada de transformação e
+          autocuidado. Somos mais do que um time de profissionais, somos seus
+          amigos e confidentes. Nosso objetivo é criar um ambiente acolhedor e
+          inspirador, onde você se sinta à vontade para relaxar, se divertir e
+          se transformar.
+        </p>
+        <p
+          class="text-center text-[#ffd600] font-semibold text-sm/6 md:text-sm/9 md:text-[1.2rem] text-[1rem]"
+        >
+          Conheça o Time dos Sonhos que Transforma Beleza em Arte!
+        </p>
       </span>
       <div class="w-150 m-auto">
         <img
