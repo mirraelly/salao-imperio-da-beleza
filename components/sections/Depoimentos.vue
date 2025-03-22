@@ -1,22 +1,11 @@
-<script setup>
-import { ref, computed } from "vue";
-import testemonialsData from "@/assets/db/testemonials.json";
-
-const testemonials = ref(testemonialsData.testemonials);
-const currentIndex = ref(0);
-const currentDepoimento = computed(
-  () => testemonials.value[currentIndex.value]
-);
-</script>
-
 <template>
   <div class="bg-black pt-6" id="depoimentos">
-    <h1 class="text-[2rem] text-center text-[#ffd700] title-hero">
-      Depoimentos
-    </h1>
-    <div>
-      <div class="flex items-start gap-2 py-10 px-auto">
-        <div class="card w-full">
+    <h1 class="text-2xl text-center text-yellow-500 title-hero">Depoimentos</h1>
+    <div class="px-4 md:px-8 lg:px-16 pt-10">
+      <div
+        class="flex flex-col md:flex-row items-center md:items-start gap-0 sm:gap-4"
+      >
+        <div class="w-full md:w-1/2">
           <Carousel
             :value="testemonials"
             :numVisible="1"
@@ -27,7 +16,7 @@ const currentDepoimento = computed(
             :showNavigators="false"
             :showIndicators="false"
             orientation="vertical"
-            containerClass="flex items-end"
+            containerClass="flex"
           >
             <template #item="slotProps">
               <div
@@ -47,22 +36,34 @@ const currentDepoimento = computed(
             </template>
           </Carousel>
         </div>
-        <div class="ml-8 w-full">
-          <div class="relative bg-white rounded-lg shadow-md p-4 w-120">
-            <div
-              class="absolute -left-4 top-1/2 transform -translate-y-1/2"
-            ></div>
-            <!-- Triângulo -->
+        <div class="w-full md:w-1/2 mt-4 md:mt-0 hidden md:block">
+          <div class="relative bg-white rounded-lg shadow-md p-4">
             <div class="triangle"></div>
-
             <h3 class="font-semibold text-lg">{{ currentDepoimento.name }}</h3>
             <p class="text-gray-600">{{ currentDepoimento.text }}</p>
           </div>
         </div>
       </div>
+      <div class="flex flex-col items-center md:hidden mt-4">
+        <div class="relative bg-white rounded-lg shadow-md p-4 w-full">
+          <h3 class="font-semibold text-lg">{{ currentDepoimento.name }}</h3>
+          <p class="text-gray-600">{{ currentDepoimento.text }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, computed } from "vue";
+import testemonialsData from "@/assets/db/testemonials.json";
+
+const testemonials = ref(testemonialsData.testemonials);
+const currentIndex = ref(0);
+const currentDepoimento = computed(
+  () => testemonials.value[currentIndex.value]
+);
+</script>
 
 <style scoped>
 .triangle {
