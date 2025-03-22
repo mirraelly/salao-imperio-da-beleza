@@ -1,44 +1,75 @@
 <template>
-  <div class="bg-black py-4 px-16" id="servicos">
+  <div class="bg-black py-4 px-0 sm:px-8 md:px-16" id="servicos">
     <h1 class="text-[2rem] text-center text-[#ffd700] title-hero pt-6 pb-12">
       Nossos Serviços
     </h1>
-    <div class="flex flex-wrap items-center justify-center gap-4">
-      <div
-        v-for="(service, index) in services"
-        :key="service.id"
-        :class="{
-          'w-full sm:w-1/2 md:w-1/3 lg:w-1/4': true,
-        }"
-      >
+    <Carousel
+      :value="services"
+      :numVisible="4"
+      :numScroll="1"
+      :responsiveOptions="responsiveOptions"
+      circular
+      :autoplayInterval="3000"
+      :showIndicators="false"
+    >
+      <template #item="slotProps">
         <div
-          class="flex flex-col bg-white rounded-md shadow-md p-4 mb-4 h-full"
+          class="imagesBox rounded m-0 md:m-2 p-4 bg-white h-full flex flex-col"
         >
           <div class="flex justify-end">
             <Tag
-              :value="service.categoria"
-              :class="tagColor(service.categoria)"
+              :value="slotProps.data.categoria"
+              :class="tagColor(slotProps.data.categoria)"
               class="mb-2"
             />
           </div>
           <img
-            :src="service.photo"
-            :alt="service.serviço"
+            :src="slotProps.data.photo"
+            :alt="slotProps.data.serviço"
             class="w-full rounded-md mb-4"
           />
           <div class="flex-grow">
-            <h2 class="text-xl font-semibold mb-2">{{ service.serviço }}</h2>
-            <p class="text-gray-600 text-justify">{{ service.descrição }}</p>
+            <h2 class="text-xl font-semibold mb-2">
+              {{ slotProps.data.serviço }}
+            </h2>
+            <p class="text-gray-600 text-justify">
+              {{ slotProps.data.descrição }}
+            </p>
           </div>
         </div>
-      </div>
-    </div>
+      </template>
+    </Carousel>
   </div>
 </template>
 
 <script setup>
 import services from "../../assets/db/servicos.json";
 import Tag from "primevue/tag";
+import Carousel from "primevue/carousel";
+import { ref } from "vue";
+
+const responsiveOptions = ref([
+  {
+    breakpoint: "1400px",
+    numVisible: 4,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "1199px",
+    numVisible: 3,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "767px",
+    numVisible: 2,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "575px",
+    numVisible: 1,
+    numScroll: 1,
+  },
+]);
 
 function tagColor(categoria) {
   switch (categoria) {
@@ -58,4 +89,18 @@ function tagColor(categoria) {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.imagesBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .imagesBox {
+    width: 90%;
+    margin-left: 5%; /* Centraliza a div */
+    margin-right: 5%; /* Centraliza a div */
+  }
+}
+</style>
