@@ -3,7 +3,7 @@
     <div
       class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 box-border"
     >
-      <div>
+      <div class="px-4 md:px-0 max-w-[20rem] m-auto">
         <img
           src="../../assets/images/rk-salao-fundo-transparente.png"
           alt="Beauty Spa Logo"
@@ -31,7 +31,9 @@
         </div>
       </div>
       <div class="section p-4">
-        <h2 class="border-b border-secondary pb-2 mb-4 text-xl font-semibold">
+        <h2
+          class="border-b border-secondary pb-2 mb-4 text-[1rem] md:text-xl font-semibold"
+        >
           Links úteis
         </h2>
         <div class="flex justify-start gap-[3rem]">
@@ -62,7 +64,9 @@
         </div>
       </div>
       <div class="section p-4">
-        <h2 class="border-b border-secondary pb-2 mb-4 text-xl font-semibold">
+        <h2
+          class="border-b border-secondary pb-2 mb-4 text-[1rem] md:text-xl font-semibold"
+        >
           Nossos Horários
         </h2>
         <ul class="working-hours-list list-none p-0 m-0">
