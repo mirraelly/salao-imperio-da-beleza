@@ -10,34 +10,43 @@
         <div class="w-full md:w-1/2 flex flex-col gap-6 ladoA">
           <div>
             <h2
-              class="text-start text-[#ffd600] font-semibold text-sm/6 md:text-sm/9 md:text-[1.5rem] text-[1.2rem] max-w-[35rem]"
+              class="indent-[40px] text-start text-[#ffd600] font-semibold text-sm/6 md:text-sm/9 md:text-[1.5rem] text-[1.2rem] max-w-[35rem]"
             >
-              Mais do que um salão, <br />
-              <span> um espaço para você se sentir incrível.</span>
+              Celebrando a Beleza Única de Cada Mulher
             </h2>
           </div>
           <div class="w-full text-start text-white">
             <span class="w-full text-[14px] md:text-[1rem]">
               <p class="indent-[40px] text-justify mb-2.5">
-                Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé,
-                cursus quis, vehicula ac nisi. Nulla id gravida magna, ut semper
-                sapien. Posuere libero varius. Nullam a nisl ut ante blandit
-                hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é
-                motivis de denguis.
+                Boas vindas ao Império da Beleza, um espaço onde a magia
+                acontece e a sua autoestima floresce! Aqui, cada mecha de cabelo
+                conta uma história, cada sorriso reflete a confiança que
+                cultivamos juntos. Somos mais do que um salão de beleza, somos
+                um refúgio onde a sua beleza interior encontra sua expressão
+                exterior. Nossa equipe de profissionais experientes e
+                apaixonados está aqui para te guiar em uma jornada de
+                transformação, realçando o que há de mais belo em você.
               </p>
               <p class="indent-[40px] text-justify mb-2.5">
-                Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé,
-                cursus quis, vehicula ac nisi. Nulla id gravida magna, ut semper
-                sapien. Posuere libero varius. Nullam a nisl ut ante blandit
-                hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é
-                motivis de denguis.
+                Por trás de cada cabelo cedoso e radiante, está a história de
+                Rita de Kácia, uma visionária apaixonada por despertar a beleza
+                interior de cada cliente. Desde xxxx, sonhava em transformar
+                vidas através da beleza, e com muita dedicação e talento,
+                transformou esse sonho em realidade. Rita de Kácia está há [X]
+                anos no mercado, e seu salão é um reflexo de sua paixão e
+                profissionalismo. Cada detalhe do nosso salão reflete o cuidado
+                e a paixão que ela dedica a cada cliente, criando um ambiente
+                acolhedor e inspirador. Nosso espaço foi projetado com muito
+                amor e carinho, para que você se sinta muito confortável e
+                especial.
               </p>
               <p class="indent-[40px] text-justify mb-2.5">
-                Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé,
-                cursus quis, vehicula ac nisi. Nulla id gravida magna, ut semper
-                sapien. Posuere libero varius. Nullam a nisl ut ante blandit
-                hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é
-                motivis de denguis.
+                Seja para um dia de princesa, um evento especial ou apenas para
+                se sentir radiante no dia a dia, nosso salão é o seu destino.
+                Oferecemos uma gama completa de serviços, desde cortes e e
+                tratamentos para as suas "madeixas" até os cuidados para suas
+                unhas e a pele. Venha nos visitar e descubra a beleza que existe
+                em você!
               </p>
             </span>
           </div>
