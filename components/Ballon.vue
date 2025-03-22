@@ -1,10 +1,15 @@
 <template>
-  <div class="card">
+  <div>
     <div :style="{ position: 'relative' }">
       <SpeedDial
         :model="items"
         direction="up"
-        :style="{ position: 'absolute', right: 0, bottom: 0 }"
+        :style="{
+          position: 'absolute',
+          right: 0,
+          bottom: 0,
+          margin: '2rem',
+        }"
         :buttonProps="{ severity: 'danger', rounded: true }"
         :tooltipOptions="{ position: 'right' }"
       />
