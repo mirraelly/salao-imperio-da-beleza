@@ -1,98 +1,68 @@
 <template>
-  <div class="bg-black py-4 px-16" id="galeria">
-    <h1 class="text-[2rem] text-center text-[#ffd700] title-hero pt-6 pb-12">
-      Resultados
-    </h1>
-    <div class="flex items-center justify-center gap-4">
-      <div class="lado-a">
-        <div class="flex items-center bg-white rounded-md shadow-md p-4 mb-4">
+  <div class="bg-black py-4 px-0 sm:px-8 md:px-16" id="galeria">
+    <h1 class="text-2xl text-center text-yellow-500 pt-6 pb-12">Resultados</h1>
+    <Carousel
+      :value="galeria"
+      :numVisible="4"
+      :numScroll="1"
+      :responsiveOptions="responsiveOptions"
+      circular
+      :autoplayInterval="3000"
+      :showIndicators="false"
+    >
+      <template #item="slotProps">
+        <div class="rounded m-0 md:m-2 p-4 bg-white h-full flex flex-col">
           <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 1"
-            class="w-1/3 mr-4 rounded-md"
+            :src="slotProps.data.photo"
+            :alt="slotProps.data.titulo"
+            class="w-full rounded-md mb-4 flex-grow object-cover"
           />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 1</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 1. Pode conter algumas linhas de texto.
-            </p>
+          <div class="flex-grow">
+            <h2 class="text-xl font-semibold mb-2">
+              {{ slotProps.data.titulo }}
+            </h2>
           </div>
         </div>
-        <div class="flex items-center bg-white rounded-md shadow-md p-4">
-          <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 2"
-            class="w-1/3 mr-4 rounded-md"
-          />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 2</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 2. Pode conter algumas linhas de texto.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="lado-b">
-        <div class="flex items-center bg-white rounded-md shadow-md p-4 mb-4">
-          <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 3"
-            class="w-1/3 mr-4 rounded-md"
-          />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 3</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 3. Pode conter algumas linhas de texto.
-            </p>
-          </div>
-        </div>
-        <div class="flex items-center bg-white rounded-md shadow-md p-4">
-          <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 4"
-            class="w-1/3 mr-4 rounded-md"
-          />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 4</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 4. Pode conter algumas linhas de texto.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="lado-c">
-        <div class="flex items-center bg-white rounded-md shadow-md p-4 mb-4">
-          <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 3"
-            class="w-1/3 mr-4 rounded-md"
-          />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 3</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 3. Pode conter algumas linhas de texto.
-            </p>
-          </div>
-        </div>
-        <div class="flex items-center bg-white rounded-md shadow-md p-4">
-          <img
-            src="https://via.placeholder.com/80"
-            alt="Imagem 4"
-            class="w-1/3 mr-4 rounded-md"
-          />
-          <div class="w-2/3">
-            <h2 class="text-xl font-semibold mb-2">Título do Card 4</h2>
-            <p class="text-gray-600">
-              Descrição breve do card 4. Pode conter algumas linhas de texto.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </template>
+    </Carousel>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import galeria from "../../assets/db/galeria.json";
+import Carousel from "primevue/carousel";
+import { ref } from "vue";
 
-<style scoped></style>
+const responsiveOptions = ref([
+  {
+    breakpoint: "1400px",
+    numVisible: 4,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "1199px",
+    numVisible: 3,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "767px",
+    numVisible: 2,
+    numScroll: 1,
+  },
+  {
+    breakpoint: "575px",
+    numVisible: 1,
+    numScroll: 1,
+  },
+]);
+</script>
+
+<style scoped>
+@media (max-width: 575px) {
+  .imagesBox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+</style>
