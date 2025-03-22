@@ -1,10 +1,10 @@
 <template>
   <div class="card">
-    <div :style="{ position: 'relative', height: '350px' }">
+    <div :style="{ position: 'relative' }">
       <SpeedDial
         :model="items"
         direction="up"
-        :style="{ position: 'absolute', left: 0, bottom: 0 }"
+        :style="{ position: 'absolute', right: 0, bottom: 0 }"
         :buttonProps="{ severity: 'danger', rounded: true }"
         :tooltipOptions="{ position: 'right' }"
       />
@@ -48,3 +48,5 @@ const items = ref([
   },
 ]);
 </script>
+
+<style scoped></style>
