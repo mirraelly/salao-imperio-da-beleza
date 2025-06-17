@@ -8,7 +8,7 @@
       :numVisible="1"
       :numScroll="1"
       :circular="true"
-      :autoplayInterval="4000"
+      :autoplayInterval="40000"
       :showIndicators="true"
       :showNavigators="true"
       class="custom-carousel w-full px-4"
@@ -23,6 +23,7 @@
               :src="slotProps.data.photo"
               alt="Imagem do carrossel"
               class="w-auto h-[400px] object-cover"
+              style="border-radius: 78% 80% / 66%"
             />
           </div>
 

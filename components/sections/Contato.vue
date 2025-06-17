@@ -5,7 +5,7 @@
     >
       <div class="px-4 md:px-0 max-w-[20rem] m-auto">
         <img
-          src="../../assets/images/rk-salao-fundo-transparente.png"
+          src="../../assets/images/rk_2.png"
           alt="Beauty Spa Logo"
           class="w-full h-full mr-2"
         />

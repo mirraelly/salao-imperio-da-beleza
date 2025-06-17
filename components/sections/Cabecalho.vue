@@ -61,11 +61,8 @@
         "
       >
         <template #start>
-          <div class="logo">
-            <img
-              src="../../assets/images/logo_RK_versao2.svg"
-              class="w-[5rem] h-[3rem]"
-            />
+          <div class="logo w-[4rem] h-[2.5rem] py-1">
+            <img src="../../assets/images/rk_.png" class="w-full h-full" />
             <!-- <span style="font-family: Imperial Script, cursive" class="text-[4rem]">R</span>
                     <span style="font-family: Imperial Script, cursive" class="text-[4rem]">K</span> -->
           </div>
