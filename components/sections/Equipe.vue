@@ -18,18 +18,18 @@
           inspirador, onde você se sinta à vontade para relaxar, se divertir e
           se transformar.
         </p>
+      </span>
+      <div class="max-w-150 m-auto">
+        <img
+          src="../../public/otime/1-time.jpg"
+          alt="imagem da equipe"
+          class="rounded-lg"
+        />
         <p
           class="text-start sm:text-center text-[#ffd600] font-semibold text-sm/6 md:text-sm/9 md:text-[1.2rem] text-[1rem]"
         >
           Conheça o Time dos Sonhos que Transforma Beleza em Arte!
         </p>
-      </span>
-      <div class="max-w-150 m-auto">
-        <img
-          src="../../public/testemonialsImages/teste-image-woman.jpg"
-          alt="imagem da equipe"
-          class="rounded-lg"
-        />
       </div>
     </div>
   </div>

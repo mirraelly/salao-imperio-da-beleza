@@ -32,7 +32,7 @@
                 Rita de Kácia, uma visionária apaixonada por despertar a beleza
                 interior de cada cliente. Desde xxxx, sonhava em transformar
                 vidas através da beleza, e com muita dedicação e talento,
-                transformou esse sonho em realidade. Rita de Kácia está há [X]
+                transformou esse sonho em realidade. Rita de Kácia está há 8
                 anos no mercado, e seu salão é um reflexo de sua paixão e
                 profissionalismo. Cada detalhe do nosso salão reflete o cuidado
                 e a paixão que ela dedica a cada cliente, criando um ambiente
@@ -72,7 +72,7 @@
               <div
                 class="name-tag absolute bg-[#ffc107] w-full text-black text-center font-bold bottom-0 left-0 py-[10px] px-0 text-[14px] md:text-[1.1rem]"
               >
-                Cabeleireira a mais de x anos
+                Cabeleireira a mais de 8 anos
               </div>
             </div>
           </div>

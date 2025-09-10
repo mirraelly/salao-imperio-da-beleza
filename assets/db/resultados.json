@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "photo": "/resultados/5-resultado.png",
+    "titulo": "Corte e Escova Modelada"
+  },
+  {
+    "id": 2,
+    "photo": "/resultados/9-resultado.png",
+    "titulo": "Manicure com Decoração"
+  },
+  {
+    "id": 3,
+    "photo": "/resultados/7-resultado.png",
+    "titulo": "Maquiagem para Festa"
+  },
+  {
+    "id": 4,
+    "photo": "/resultados/10-resultado.png",
+    "titulo": "Luzes e Hidratação"
+  },
+  {
+    "id": 5,
+    "photo": "/resultados/4-resultado.png",
+    "titulo": "Design de Sobrancelhas"
+  },
+  {
+    "id": 6,
+    "photo": "/resultados/12-resultado.svg",
+    "titulo": "Design de Sobrancelhas"
+  },
+  {
+    "id": 7,
+    "photo": "/resultados/13-resultado.png",
+    "titulo": "Design de Sobrancelhas"
+  },
+  {
+    "id": 8,
+    "photo": "/resultados/14-resultado.png",
+    "titulo": "Design de Sobrancelhas"
+  },
+  {
+    "id": 9,
+    "photo": "/resultados/15-resultado.png",
+    "titulo": "Design de Sobrancelhas"
+  },
+  {
+    "id": 10,
+    "photo": "/resultados/16-resultado.png",
+    "titulo": "Design de Sobrancelhas"
+  }
+]

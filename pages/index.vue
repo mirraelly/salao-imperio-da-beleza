@@ -5,8 +5,10 @@
     <Sobre />
     <Servicos />
     <Depoimentos />
-    <Galeria />
+    <Resultados />
     <Equipe />
+    <ProdVeganos />
+    <Dicas />
     <Contato />
     <Localizacao />
     <Rodape />
@@ -20,12 +22,14 @@ import Hero from "@/components/sections/Hero.vue";
 import Sobre from "@/components/sections/Sobre.vue";
 import Servicos from "@/components/sections/Servicos.vue";
 import Depoimentos from "@/components/sections/Depoimentos.vue";
-import Galeria from "@/components/sections/Galeria.vue";
 import Equipe from "@/components/sections/Equipe.vue";
 import Localizacao from "@/components/sections/Localizacao.vue";
 import Contato from "@/components/sections/Contato.vue";
 import Rodape from "@/components/sections/Rodape.vue";
 import Ballon from "@/components/Ballon.vue";
+import Dicas from "@/components/sections/Dicas.vue";
+import ProdVeganos from "@/components/sections/ProdVeganos.vue";
+import Resultados from "@/components/sections/Resultados.vue";
 </script>
 
 <style>

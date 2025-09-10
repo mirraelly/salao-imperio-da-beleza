@@ -131,9 +131,9 @@ const items = ref([
     url: "#servicos",
   },
   {
-    label: "Galeria",
+    label: "Resultados",
     root: true,
-    url: "#galeria",
+    url: "#resultados",
   },
   {
     label: "Contato",
@@ -185,5 +185,10 @@ onMounted(() => {
 
 .topo {
   transition: opacity 0.5s ease-in-out;
+}
+
+* {
+  font-family: "Playfair", serif;
+  font-weight: 700;
 }
 </style>

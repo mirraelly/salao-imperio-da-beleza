@@ -5,6 +5,7 @@
   --color-secondary: #ffb84d;
   --color-yellow-gold: #ffd700;
   --color-dark-gold: #b8860b;
+  --color-other-gold: #e1a345;
   --color-gray: #000000a1;
   --color-white: #ffffff;
 }
@@ -14,9 +15,9 @@
 }
 
 .p-carousel-indicator-active .p-carousel-indicator-button {
-  background-color: var(--color-yellow-gold);
+  background-color: var(--color-secondary);
 }
 
 .p-carousel-indicator-button:hover {
-  background-color: var(--color-yellow-gold);
+  background-color: var(--color-secondary);
 }

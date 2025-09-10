@@ -22,8 +22,7 @@
             <img
               :src="slotProps.data.photo"
               alt="Imagem do carrossel"
-              class="w-auto h-[400px] object-cover"
-              style="border-radius: 78% 80% / 66%"
+              class="w-auto h-[400px] object-cover hero-image"
             />
           </div>
 
@@ -34,9 +33,7 @@
             <div
               class="content p-6 md:p-10 rounded-[8px] flex flex-col items-start w-full"
             >
-              <h2
-                class="text-2xl md:text-[40px] mb-4 md:mb-[20px] text-start title-hero"
-              >
+              <h2 class="text-2xl md:text-[40px] mb-4 md:mb-[20px] title-hero">
                 {{ slotProps.data.title }}
               </h2>
               <Button
@@ -74,10 +71,20 @@ onMounted(() => {
 
 .cta-button {
   background-color: #000;
-  color: #fff;
+  color: #ffd700;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  font-family: "Playfair", serif;
+  font-weight: 700;
+}
+
+.p-button-label {
+  font-weight: 700;
+}
+
+.p-button:not(:disabled):hover {
+  border: none;
 }
 
 .p-button-text.p-button-secondary:not(:disabled):hover {
@@ -87,6 +94,17 @@ onMounted(() => {
 
 .p-carousel[data-v-031d8a61] {
   padding-top: 4rem;
+}
+
+.hero-image {
+  width: 30rem;
+  border-radius: 80px;
+  box-shadow: 4px 7px 11px 0px #b8860b5c;
+}
+
+.title-hero {
+  text-align: justify;
+  hyphens: auto;
 }
 
 @media (max-width: 768px) {

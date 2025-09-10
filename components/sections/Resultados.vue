@@ -1,13 +1,15 @@
 <template>
-  <div class="bg-black py-4 px-0 sm:px-8 md:px-16" id="galeria">
-    <h1 class="text-2xl text-center text-yellow-500 pt-6 pb-12">Resultados</h1>
+  <div class="bg-black py-4 px-0 sm:px-8 md:px-16" id="resultados">
+    <h1 class="text-2xl text-center text-yellow-500 pt-6 pb-12">
+      Nossos resultados
+    </h1>
     <Carousel
-      :value="galeria"
+      :value="resultados"
       :numVisible="4"
       :numScroll="1"
       :responsiveOptions="responsiveOptions"
       circular
-      :autoplayInterval="3000"
+      :autoplayInterval="2000"
       :showIndicators="false"
     >
       <template #item="slotProps">
@@ -15,7 +17,7 @@
           <img
             :src="slotProps.data.photo"
             :alt="slotProps.data.titulo"
-            class="w-full rounded-md mb-4 flex-grow object-cover"
+            class="w-full h-[20rem] rounded-md mb-4 flex-grow object-cover"
           />
           <div class="flex-grow">
             <h2 class="text-xl font-semibold mb-2">
@@ -29,7 +31,7 @@
 </template>
 
 <script setup>
-import galeria from "../../assets/db/galeria.json";
+import resultados from "../../assets/db/resultados.json";
 import Carousel from "primevue/carousel";
 import { ref } from "vue";
 
