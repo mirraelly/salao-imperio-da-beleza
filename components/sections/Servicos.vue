@@ -26,7 +26,7 @@
           <img
             :src="slotProps.data.photo"
             :alt="slotProps.data.serviço"
-            class="w-full rounded-md mb-4"
+            class="w-full rounded-md mb-4 h-[300px] object-fit"
           />
           <div class="flex-grow">
             <h2 class="text-xl font-semibold mb-2">
