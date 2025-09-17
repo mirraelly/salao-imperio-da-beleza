@@ -4,27 +4,27 @@
     "photo": "/hero/1-salaorita.svg",
     "title": "Quer encontrar a sua melhor versão?",
     "textButton": "Agende um horário",
-    "link": "oi"
+    "link": "https://wa.me/5584988675840"
   },
   {
     "id": "2",
     "photo": "/hero/2-rita.png",
     "title": "Deixe a sua beleza florescer! Aqui, ela ganha vida.",
     "textButton": "Conhecer serviços",
-    "link": "oi"
+    "link": "#servicos"
   },
   {
     "id": "3",
     "photo": "/hero/3-cortes.png",
     "title": "Mais do que um salão, um espaço para você brilhar.",
     "textButton": "O que falam de nós",
-    "link": "oi"
+    "link": "#depoimentos"
   },
   {
     "id": "4",
     "photo": "/hero/4-equipe.jpg",
     "title": "Mais do que um salão, um espaço para você brilhar.",
-    "textButton": "O que falam de nós",
-    "link": "oi"
+    "textButton": "Veja nossos resultados",
+    "link": "#resultados"
   }
 ]

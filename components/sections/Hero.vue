@@ -36,11 +36,20 @@
               <h2 class="text-2xl md:text-[40px] mb-4 md:mb-[20px] title-hero">
                 {{ slotProps.data.title }}
               </h2>
-              <Button
-                :label="slotProps.data.textButton"
+              <a
                 :href="slotProps.data.link"
-                class="cta-button"
-              />
+                class="cta-button p-button"
+                :target="
+                  slotProps.data.link.startsWith('http') ? '_blank' : null
+                "
+                :rel="
+                  slotProps.data.link.startsWith('http')
+                    ? 'noopener noreferrer'
+                    : null
+                "
+              >
+                {{ slotProps.data.textButton }}
+              </a>
             </div>
           </div>
         </div>

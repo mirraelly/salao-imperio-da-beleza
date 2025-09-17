@@ -48,4 +48,8 @@ import Resultados from "@/components/sections/Resultados.vue";
 .title-hero {
   font-family: "Playfair", serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 </style>
