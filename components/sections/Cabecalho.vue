@@ -40,9 +40,18 @@
               <a
                 href="https://www.facebook.com/ritabelezaofc"
                 target="_blank"
-                class="rounded-full hover:bg-blue-700 transition"
+                class="rounded-full transition"
               >
-                <i class="pi pi-facebook !text-white"></i>
+                <i class="pi pi-facebook facebook-icon"></i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.tiktok.com/@ritaferreira989?_t=ZM-8zmwMx6xHx2&_r=1"
+                target="_blank"
+                class="rounded-full"
+              >
+                <i class="pi pi-tiktok tiktok-icon"></i>
               </a>
             </div>
           </div>
@@ -171,6 +180,28 @@ onMounted(() => {
     #e1306c,
     #fd1d1d
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook-icon {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.facebook-icon:hover {
+  color: #1877f2;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.tiktok-icon {
+  color: white; /* cor inicial */
+  transition: all 0.3s ease-in-out;
+}
+
+.tiktok-icon:hover {
+  background: linear-gradient(90deg, #25f4ee 0%, #fe2c55 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
