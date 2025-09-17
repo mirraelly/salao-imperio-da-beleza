@@ -72,8 +72,6 @@
         <template #start>
           <div class="logo w-[4rem] h-[2.5rem] py-1">
             <img src="../../assets/images/rk_.png" class="w-full h-full" />
-            <!-- <span style="font-family: Imperial Script, cursive" class="text-[4rem]">R</span>
-                    <span style="font-family: Imperial Script, cursive" class="text-[4rem]">K</span> -->
           </div>
         </template>
         <template #item="{ item }">
@@ -208,7 +206,35 @@ onMounted(() => {
 
 .menu-options {
   color: #ffd700;
+  position: relative;
 }
+
+.menu-options:hover {
+  font-weight: 900;
+  background: linear-gradient(90deg, #ffd700, #ffae00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000;
+}
+
+/* .menu-options::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #ffd700, #ffae00);
+  transition: width 0.3s ease-in-out;
+}
+
+.menu-options:hover {
+  color: #ffd700;
+}
+
+.menu-options:hover::after {
+  width: 100%;
+} */
 
 .p-megamenu-button {
   color: #ffffff;

@@ -21,3 +21,9 @@
 .p-carousel-indicator-button:hover {
   background-color: var(--color-secondary);
 }
+
+.p-megamenu-item:not(.p-disabled) > .p-megamenu-item-content:hover {
+  color: gold;
+  background-color: unset;
+  font-weight: bold;
+}
