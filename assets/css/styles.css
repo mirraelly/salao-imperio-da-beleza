@@ -10,20 +10,43 @@
   --color-white: #ffffff;
 }
 
+.p-megamenu-button {
+  color: #ffffff;
+}
+
+.p-button-label {
+  font-weight: 900;
+}
+
+.p-button:not(:disabled):hover {
+  border: none;
+}
+
+.p-carousel[data-v-031d8a61] {
+  padding-top: 4rem;
+}
+
 .p-carousel-indicator-button {
   background-color: var(--color-primary);
 }
 
 .p-carousel-indicator-active .p-carousel-indicator-button {
-  background-color: var(--color-secondary);
+  background: linear-gradient(90deg, #ffd700, #ffae00);
+  transition: width 0.3s ease-in-out;
 }
 
 .p-carousel-indicator-button:hover {
-  background-color: var(--color-secondary);
+  background: linear-gradient(90deg, #ffd700, #ffae00);
+  transition: width 0.3s ease-in-out;
 }
 
 .p-megamenu-item:not(.p-disabled) > .p-megamenu-item-content:hover {
   color: gold;
   background-color: unset;
   font-weight: bold;
+}
+
+.p-button-text.p-button-secondary:not(:disabled):hover {
+  background-color: #bdb69257;
+  transition: width 0.3s ease-in-out;
 }

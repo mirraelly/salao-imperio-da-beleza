@@ -71,29 +71,25 @@ onMounted(() => {
 
 .cta-button {
   background-color: #000;
+  border: 1px solid black;
   color: #ffd700;
   padding: 10px 20px;
-  border: none;
   cursor: pointer;
   font-family: "Playfair", serif;
-  font-weight: 700;
+  font-weight: 900;
+  position: relative;
 }
 
-.p-button-label {
-  font-weight: 700;
+.cta-button .p-button-label {
+  transition: all 0.3s ease-in-out;
+  background-color: black;
 }
 
 .p-button:not(:disabled):hover {
-  border: none;
-}
-
-.p-button-text.p-button-secondary:not(:disabled):hover {
-  background: #00050a;
-  color: #ffffff;
-}
-
-.p-carousel[data-v-031d8a61] {
-  padding-top: 4rem;
+  background-color: black !important;
+  color: gold !important;
+  border: 1px solid black !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-image {

@@ -236,10 +236,6 @@ onMounted(() => {
   width: 100%;
 } */
 
-.p-megamenu-button {
-  color: #ffffff;
-}
-
 .topo {
   transition: opacity 0.5s ease-in-out;
 }
