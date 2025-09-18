@@ -1,5 +1,5 @@
 <template>
-  <div class="card fixed top-0 left-0 w-full z-50">
+  <div class="card fixed top-0 left-0 w-full z-50 mb-[60px]">
     <div class="py-1 px-6 bg-[#000000a1] topo" v-show="mostrarTopo">
       <div>
         <div

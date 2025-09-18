@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Cabecalho class="mb-[60px]" />
+    <Cabecalho />
     <Hero />
     <Sobre />
     <Servicos />
